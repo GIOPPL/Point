@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gioppl.testpoint.MainActivity">
+
+    <com.gioppl.pplpoint.MyPoint
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:circle_radius="30"
+        app:circle_color="#a71dd1"
+        app:circle_text="100"
+        app:text_color="#ffffff"/>
+</LinearLayout>
